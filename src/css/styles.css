@@ -14,14 +14,16 @@
 @import url('./footer.css');
 @import url('./order.css');
 
-:root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
 
-  color: #242424;
-  background-color: rgba(255, 255, 255, 0.87);
+:root {
+  font-family: DM sans, sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  letter-spacing: -0.56px;
+
+  color: #141414;
+  background-color: #FFF;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
