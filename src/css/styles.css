@@ -14,20 +14,38 @@
 @import url('./footer.css');
 @import url('./order.css');
 
+@font-face {
+  font-family: "DM Sans";
+  src: url("DMSans-Bold.woff2") format("woff2"),
+    url("DMSans-BoldItalic.woff2") format("woff2"),
+    url("DMSans-Italic.woff2") format("woff2"),
+    url("DMSans-Medium.woff2") format("woff2"),
+    url("DMSans-MediumItalic.woff2") format("woff2"),
+    url("DMSans-Regular.woff2") format("woff2");
+}
 
 :root {
-  font-family: DM sans, sans-serif;
-  font-size: 14px;
-  line-height: 18px;
-  font-weight: 400;
-  letter-spacing: -0.56px;
-
-  color: #141414;
-  background-color: #FFF;
+  --black-text-color: #141414;
+  --green-backround-color: #A1C487;
+  --light-green-cards-color: #EAF7E5;
+  --orange-button-color: #FC8A11;
+  --light-bg-button-color: #FAF3E7;
+  --white-bg-color: #ffffff;
+  --grey-bg-button-color: #F9F7F4;
+  --grey-color: #F3F3F3;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+}
+body {
+  font-family: DM sans, sans-serif;
+  font-size: 14px;
+  line-height: 1.28; 
+  font-weight: 400;
+  letter-spacing: -0.56px;
+  color: var(--black-text-color);
+  background-color: var(--white-bg-color);
 }
