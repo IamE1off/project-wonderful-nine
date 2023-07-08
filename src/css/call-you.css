@@ -1,3 +1,68 @@
 .call-you {
-    background-color: #A1C487;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.call-you-title {
+  display: flex;
+  color: #141414;
+  text-align: center;
+  text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
+  font-family: DM Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.16;
+  letter-spacing: -0.96px;
+  text-transform: uppercase;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.call-you-text {
+  display: flex;
+  max-width: 321px;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  color: #141414;
+  font-weight: 400;
+  line-height: 1.28;
+  letter-spacing: -0.56px;
+  justify-content: center;
+  margin-bottom: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+.call-you-form {
+  display: inline-flex;
+}
+.tel-input {
+  width: 335px;
+  height: 48px;
+  flex-shrink: 0;
+}
+.call-you-btn {
+  position: relative;
+  padding: 15px 35px;
+  align-items: center;
+  gap: 15px;
+}
+@media screen and(min-width: 375px);
+ {
+  .info-box-call {
+    max-width: 335px;
+  }
+}
+
+@media screen and(min-width: 768px);
+ {
+}
+
+@media screen and(min-width: 1280px);
+ {
 }
