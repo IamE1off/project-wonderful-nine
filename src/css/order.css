@@ -1,0 +1,79 @@
+.backdrop{
+ width: 335px;
+ height: 903px;
+ position: fixed;
+ border-radius: 20px;
+ background: #FFF;
+ padding: 20px;
+}
+.order-title{
+ margin-bottom: 40px;
+ color: #141414;
+ text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
+ font-family: DM Sans;
+ font-size: 28px;
+ font-style: normal;
+ font-weight: 500;
+ line-height: 1;
+ letter-spacing: -1.12px;
+ text-transform: uppercase;
+}
+.order-bnt{
+ position: absolute;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ cursor: pointer;
+ right: 24px;
+ top: 24px;
+ padding: 0; 
+ border: none;
+ width: 24px;
+ height: 24px;
+ background: #FFF;
+ stroke:#141414;
+}
+.order-list{
+ border-radius: 20px;
+ background: #FFF;
+ gap: 12px;
+ display: flex;
+ flex-wrap: wrap;
+ 
+}
+.order-items{
+ width: 295px;
+ height: 119px;
+ padding-left: 24px;
+ padding-top: 24px;
+ position: relative;
+ background-color: #FAF3E7;
+ border-radius: 20px;
+ }
+.order-product-name{
+ margin-bottom: 2px;
+}
+.order-text{
+ color: #141414;
+ font-family: DM Sans;
+ font-size: 14px;
+ font-style: normal;
+ font-weight: 400;
+ line-height: 1.28;
+ letter-spacing: -0.28px;
+}
+
+.order-check-box{
+ position: absolute;
+ right:14px;
+ top: 14px;
+
+}
+.order-chec-text{
+
+}
+.order-img{
+ position: absolute;
+ right: 30px;
+ top: 33px;
+}
