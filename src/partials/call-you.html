@@ -7,10 +7,19 @@
       today and start enjoying the best that nature has to offer!
     </p>
     <form class="call-you-form">
-      <label for="tel" class="call-you-label">
-        <input id="tel" type="tel" class="tel-input" name="tell" />
+      <label for="tel">
+        <input
+          id="tel"
+          placeholder="+380()"
+          pattern="[\+]\d{3}\s[\(]\d{2}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}"
+          minlength="13"
+          maxlength="13"
+          type="tel"
+          class="tel-input"
+          name="tel"
+        />
       </label>
-      <button type="button" class="call-you-btn">Recall</button>
+      <button type="submit" class="call-you-btn">Recall</button>
     </form>
   </div>
 
