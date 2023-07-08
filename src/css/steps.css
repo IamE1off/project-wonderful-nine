@@ -1,8 +1,14 @@
-.steps {
+.steps-section::before {
+    content: "";
+    position: absolute;
+    top: 60px;
+    left: 62px;
+    right: 62px;
+    bottom: 60px;
+    background: #faf3e7;
+    background-image: radial-gradient(circle at 30px 20px,
+            rgba(161, 196, 135, 0.69) 5px,
+            transparent 0);
+    background-size: 62px 60px;
     border-radius: 80px;
-    background: #FAF3E7;
-    background-image: url(./img/icons.svg#icon-Ellipse);
-    background-repeat: repeat;
-    width: 100%;
-    height: 100%;
 }
