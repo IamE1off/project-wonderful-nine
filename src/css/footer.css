@@ -1,3 +1,129 @@
+:root {
+  --title-footer-color: #141414;
+  --hover-footer-color: #a1c487;
+}
 .footer {
-    background-color: #FC8A11;
+  background: #eaf7e5;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.footer_container {
+  max-width: 1280px;
+  width: 100%;
+  padding-left: 32px;
+  padding-right: 32px;
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+/* -----------------section one---------------- */
+.body-footer__imgbox {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.body-footer__logo {
+  padding: 20px;
+  text-decoration: none;
+  color: var(--title-color);
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: -0.56px;
+}
+.footer-icon-logo {
+  padding-right: 8px;
+}
+.body-footer__afterimg {
+  display: none;
+}
+/* -------------------section two----------------- */
+.body-footer__nav {
+}
+.body-footer__menu {
+  display: flex;
+  gap: 20px;
+}
+.contacts-footer__item {
+  list-style: none;
+}
+.contacts-footer__item:hover {
+  color: #a1c487;
+}
+.contacts-footer__link {
+  text-decoration: none;
+  text-align: center;
+  color: var(--title-color);
+  font-family: DM Sans;
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.56px;
+}
+/*------- section three -------*/
+.body-footer__info {
+  display: flex;
+  flex-direction: column;
+}
+.body-footer__sol {
+  display: flex;
+  gap: 20px;
+}
+.body-footer__sol-item {
+  list-style: none;
+  padding-bottom: 42px;
+}
+
+.footer-icon-sol {
+  padding: 8px;
+  border: 1px solid #141414;
+  border-radius: 10px;
+}
+.footer-icon-sol:hover {
+  fill: #a1c487;
+  border: 1px solid #a1c487;
+  border-radius: 10px;
+}
+
+.text-number {
+  color: var(--title-color);
+  font-family: DM Sans;
+  font-size: 18px;
+  line-height: 1.33;
+
+  padding-bottom: 20px;
+}
+.text-info {
+  color: var(--title-color);
+  font-family: DM Sans;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: -0.36px;
+}
+@media screen and (max-width: 800px) {
+  .body-footer__nav {
+    display: none;
+  }
+  .body-footer__afterimg {
+    display: flex;
+    padding-top: 40px;
+    gap: 20px;
+  }
+  .footer_container {
+    align-items: flex-start;
+  }
+}
+@media screen and (max-width: 572px) {
+  .footer_container {
+    align-items: center;
+    justify-content: center;
+  }
+  .body-footer__info {
+    padding-top: 40px;
+  }
+  .text-info {
+    text-align: center;
+  }
 }
