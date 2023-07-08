@@ -42,7 +42,9 @@
   fill: #77AC63;
 
 }
-
+.container-header {
+display: flex;
+}
 
 .header-list-mobmenu {
   display: flex;
