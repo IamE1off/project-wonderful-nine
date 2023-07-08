@@ -1,4 +1,65 @@
 .header {
-  padding: 20px 0;
+  padding: 20px 20px;
   background-color: #FAF3EF;
+  outline: 1px solid red;
+  color: black;
+  width: 100%;
+  margin: 0 auto;
+
+}
+
+.header-container {
+  display: flex;
+}
+
+.header-navigation {
+  display: flex;
+  flex-direction: row;
+}
+
+.header-list {
+  display: flex;
+  flex-direction: row;
+}
+
+.logo-veggieboost {
+  display: flex;
+  flex-direction: row;
+  text-transform: uppercase;
+
+
+}
+
+.container-shopping {
+  border: none;
+}
+
+.open-modal {
+  border: none;
+}
+
+.icon-svg-vector {
+  fill: #77AC63;
+
+}
+
+
+.header-list-mobmenu {
+  display: flex;
+  flex-direction: column;
+}
+.icon-shopping {
+
+background-color: #77AC63;
+  fill: #141414;
+  fill: #ffffff;
+
+}
+.icon-svg-burger {
+
+}
+.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
 }
