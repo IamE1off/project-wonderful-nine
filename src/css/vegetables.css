@@ -1,0 +1,89 @@
+.vegetables {
+    padding-top: 124px;
+    padding-bottom: 124px;
+    background-color: #FFFFFF;
+
+}
+
+
+
+
+/* .vegetables>.container {
+    width: 375px;
+
+} */
+
+.container-vegetables {
+    max-width: 1280px;
+    width: 100%;
+    padding-left: 32px;
+    padding-right: 32px;
+
+}
+
+.veg-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+
+
+}
+
+.veg-item {
+    background-color: #EAF7E5;
+    width: calc((100% - 48px) / 3);
+    border-radius: 24px;
+}
+
+
+
+.vegetables-title {
+    min-width: 624px;
+    color: #141414;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 44px;
+    letter-spacing: -1.6px;
+    text-transform: uppercase;
+    margin-bottom: 14px;
+}
+
+.vegetables-text {
+    max-width: 562px;
+    margin: 0 auto;
+
+    text-align: center;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.72px;
+    margin-bottom: 40px;
+}
+
+
+.vegetables-subtitle {
+
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: -1.28px;
+
+    padding: 64px 0 8px 24px;
+}
+
+.veg-text {
+
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.36px;
+    padding: 0 0 0 24px;
+}
+
+
+
+.veg-icons {
+    fill: #141414;
+    /* opacity: 0.10000000149011612; */
+    filter: blur(13.591408729553223px);
+}
