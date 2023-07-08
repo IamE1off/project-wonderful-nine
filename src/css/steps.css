@@ -1,4 +1,4 @@
-.steps-section::before {
+/* .steps-section::before {
     content: "";
     position: absolute;
     top: 60px;
@@ -11,4 +11,4 @@
             transparent 0);
     background-size: 62px 60px;
     border-radius: 80px;
-}
+} */
