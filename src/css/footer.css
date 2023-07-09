@@ -26,16 +26,23 @@
   flex-direction: column;
 }
 .body-footer__logo {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  gap: 8px;
+
   padding: 20px;
   text-decoration: none;
   color: var(--title-color);
   text-transform: uppercase;
+  font-size: 14px;
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: -0.56px;
 }
 .footer-icon-logo {
-  padding-right: 8px;
+  width: 16px;
+  height: 16px;
 }
 .body-footer__afterimg {
   display: none;

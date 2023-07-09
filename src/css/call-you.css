@@ -1,3 +1,124 @@
 .call-you {
-    background-color: #A1C487;
+  width: 335px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+}
+.info-box-call {
+  margin-bottom: 40px;
+}
+
+.call-you-title {
+  color: #141414;
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.16;
+  letter-spacing: -0.96px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+.call-you-text {
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  color: #141414;
+  line-height: 1.28;
+  letter-spacing: -0.56px;
+  padding-left: 7px;
+  padding-right: 7px;
+  margin-bottom: 40px;
+}
+.call-you-form {
+  display: inline-flex;
+}
+.tel-input {
+  width: 335px;
+  height: 48px;
+  color: #c1bdbd;
+  border-radius: 100px;
+  border: 1px solid #141414;
+  padding-left: 24px;
+  opacity: 0.30000001192092896;
+}
+.call-you-btn {
+  letter-spacing: -0.56px;
+  text-transform: capitalize;
+  position: relative;
+  right: 105px;
+  padding: 15px 35px;
+  border-radius: 100px;
+  color: #fff;
+  background: #fc8a11;
+  border: none;
+  margin: 0;
+}
+.call-you-img {
+  width: 335px;
+  height: 388px;
+  border-radius: 40px;
+  background: #faf3e7;
+  margin-bottom: 80px;
+}
+.call-icon {
+}
+
+@media screen and (min-width: 375px) {
+  .call-you {
+    max-width: 335px;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .call-you {
+    max-width: 524px;
+    width: 100%;
+  }
+  .call-you-title {
+    font-size: 40px;
+    line-height: 1.1;
+    letter-spacing: -1.6px;
+    padding-left: 90px;
+    padding-right: 90px;
+  }
+  .call-you-text {
+    width: 499px;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: -0.72px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .call-you {
+    max-width: 1216px;
+    width: 100%;
+    flex-direction: unset;
+    justify-content: unset;
+  }
+  .info-box-call {
+    width: 614px;
+    margin-right: 77px;
+  }
+  .call-you-title {
+    font-size: 48px;
+    line-height: 1.04;
+    letter-spacing: -1.92px;
+    text-align: unset;
+    padding: 0;
+    margin-bottom: 40px;
+  }
+  .call-you-text {
+    margin-bottom: 80px;
+    text-align: unset;
+    padding: 0;
+  }
+  .call-you-img {
+    width: 525px;
+    height: 536px;
+  }
 }
