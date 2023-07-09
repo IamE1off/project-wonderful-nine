@@ -1,4 +1,122 @@
-.header {
-  padding: 20px 0;
-  background-color: #FAF3EF;
+.header {  
+  background-color: #FFFFFF;
+  height: 50px;
+  }
+
+.header-container {
+  padding: 16px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-navigation, .container-button-shopping {
+  display: none;
+  }
+.logo-veggieboost {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+
+.icon-svg-vector {
+ width: 16px;
+ height: 16px;
+ fill: #77AC63;
+}
+
+.logo-name {
+  color: #141414;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.28;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+}
+.open-mobile-menu {
+ background-color: #FFFFFF;
+ border: none;
+ fill: #77AC63;
+}
+
+/*---mobail-menu---*/
+
+.container-shopping {
+  border: none;
+}
+
+.header-list-mobmenu {
+  display: flex;
+  flex-direction: column;
+}
+.icon-shopping {
+  fill: #ffffff;
+
+}
+
+.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
+}
+
+@media screen and (min-width: 768px) {
+  .header-navigation,
+  .container-button-shopping {
+  display: flex;
+}
+.container-button-openmobmenu {
+  display: none;
+}       
+.header-list {
+  display: flex;
+  flex-direction: row;
+  gap: 14px;
+  }
+.header-item {
+  color: #141414;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.28;
+  letter-spacing: -0.04em;
+  }
+  .container-navigation-logo {
+   display: flex;
+   gap: 86px;
+  }
+  .open-modal {
+   background-color: #FFFFFF; 
+   border: none;
+   width: 20px;
+   height: 20px;
+   padding: inherit;
+  }
+  .icon-shopping {
+  fill: #141414;
+  }
+}
+@media screen and (min-width: 1280px) {
+.header-list {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+  .container-navigation-logo {
+    display: flex;
+    gap: 308px;
+  }
+  .open-modal {
+    width: 24px;
+    height: 24px;      
+  }
+  .icon-shopping {
+    width: 24px;
+    height: 24px;
+  }
 }
