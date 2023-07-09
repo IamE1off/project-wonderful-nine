@@ -14,6 +14,7 @@
 .how-it-picture {
     display: flex;
     max-width: 1216px;
+    gap: 119px;
     
     
 }
@@ -45,11 +46,11 @@
 }
 
 .text_one {
-    max-width: 290px;
+    max-width: 344px;
 }
 
 .text_two {
-    max-width: 260px;
+    max-width: 294px;
 }
 
 
