@@ -1,38 +1,51 @@
 .how-it {
-
+    max-width: 1280px;
+    margin: 0 auto;
     width: 100%;
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding: 0 32px;
+}
+
+.how-it-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
 }
 
 .how-it-picture {
     display: flex;
-    flex-direction: column;
-    gap: 20px;
-
+    max-width: 1216px;
+    
+    
 }
 
+.how-it-text-container {
+    display: flex;
+    gap: 40px;
+}
 
 .how-it-title {
     color: #141414;
-    font-family: DM Sans;
-    font-size: 28px;
+    font-size: 48px;
     font-weight: 500;
-    line-height: 32px;
-    letter-spacing: -1.12px;
+    line-height: 50px;
+    letter-spacing: -1.92px;
     text-transform: uppercase;
-    max-width: 335px;
-
-
+    max-width: 700px;
 }
 
 .how-it-text {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    padding-top: 20px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.72px;
 }
 
+.text_one {
+    max-width: 290px;
+}
+
+.text_two {
+    max-width: 260px;
+}
 
 .text {
     color: #141414;
@@ -43,11 +56,10 @@
     width: 100%;
     padding-left: 5px;
     padding-right: 5px;
-
 }
 
 /*------------Media------------*/
-
+/*
 @media screen and (min-width: 375px) {
     .container {
         max-width: 375px;
@@ -158,4 +170,4 @@
     gap: 40px;
     max-width: 687px;
     min-height: 96px;
-}
+}*/
