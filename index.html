@@ -13,8 +13,8 @@
       referrerpolicy="no-referrer"
     />
     
-    <script type="module" crossorigin src="/project-wonderful-nine/assets/index-e9a12631.js"></script>
-    <link rel="stylesheet" href="/project-wonderful-nine/assets/index-730a9a77.css">
+    <script type="module" crossorigin src="/project-wonderful-nine/assets/index-157b245d.js"></script>
+    <link rel="stylesheet" href="/project-wonderful-nine/assets/index-5147233a.css">
   </head>
   <body>
     <header class="header">
@@ -401,136 +401,114 @@
 
     <!-- modal window for mobile-->
 <div class="backdrop is-hidden" data-modal>
-<section class="order-main">
-<h2 class="order-title">Your Order</h2>
-<button class="order-bnt data-modal-close" type="button">
-  <svg class="order-svg" width="24" height="24">
-    <use href="/project-wonderful-nine/assets/icons-ef3341f0.svg#icon-x-close"></use></svg>  
-</button>
-<div>
+       <div class="order-main">
+        <h2 class="order-title">Your Order</h2>
+        <button class="order-bnt data-modal-close" type="button">
+        <svg class="order-svg" width="24" height="24">
+        <use href="/project-wonderful-nine/assets/icons-ef3341f0.svg#icon-x-close"></use></svg>  
+        </button>
+      </div>
   <ul class="order-list">
     <li class="order-items">
       <h3 class="order-product-name">Cabbage Basket</h3>
       <p class="order-text">Plant</p>
-      <div class="order-check-box">
+       <div class="order-check-box">
         <input
           type="checkbox"
-          class="order-input "
-          name="order-user"
-          id="order-user"
+          class="order-input visually-hidden"
+          name="order-user "
+          id="order-user1"
           value="true"
-        /><label for="order-user" class="order-chec-text"> </label>
+        /><label for="order-user1" class="order-chec-text"><span>
+          <svg class="order-svg-pick" width="8" height="8">
+            <use href="/project-wonderful-nine/assets/icons-ef3341f0.svg#icon-pick"></use></svg>
+        </span> </label>
         </div>
-        <img class="order-img" src="/project-wonderful-nine/assets/cabbage-a6bf4ae5.png" alt="cabbage" width="94" height="78" />
+        <img class="order-img" src="../img/order/cabbage.jpg" alt="cabbage"   width="94" height="78" />
     </li>
     <li class="order-items">
-      <h3>Tomato Basket</h3>
-      <p>Plant</p>
+      <h3 class="order-product-name">Tomato Basket</h3>
+      <p class="order-text">Plant</p>
       <div class="order-check-box">
         <input
           type="checkbox"
-          class="order-input "
+          class="order-input  visually-hidden"
           name="order-user"
-          id="order-user"
+          id="order-user2"
           value="true"
-        /><label for="order-user" class="chec-text"> </label> 
+        /><label for="order-user2" class="order-chec-text"><span>
+          <svg class="order-svg-pick" width="8" height="8">
+            <use href="/project-wonderful-nine/assets/icons-ef3341f0.svg#icon-pick"></use></svg>
+        </span> </label> 
               </div>
-              <img  src="/project-wonderful-nine/assets/tomato-91676309.png" alt="tomato" width="94" height="78" />
+              <img class="order-img" src="../img/order/tomato.jpg" alt="tomato" width="94" height="78" />
     </li>
     <li class="order-items">
-      <h3>Vegetables Basket</h3>
-      <p>Plant</p>
+      <h3 class="order-product-name">Vegetables Basket</h3>
+      <p class="order-text">Plant</p>
       <div class="order-check-box">
         <input
           type="checkbox"
-          class="order-input "
+          class="order-input visually-hidden"
           name="order-user"
-          id="order-user"
+          id="order-user3"
           value="true"
-        /><label for="order-user" class="chec-text"> </label>        
+        /><label for="order-user3" class="order-chec-text"><span>
+          <svg class="order-svg-pick" width="8" height="8">
+            <use href="/project-wonderful-nine/assets/icons-ef3341f0.svg#icon-pick"></use></svg>
+        </span> </label>       
       </div>
-      <img  srcset="./images/comp.jpg 1x, ./images/comp-2x.jpg 2x" 
-               src="./images/comp.jpg" alt="basket" width="94" />
-    </li>
+      <img class="order-img" src="../img/order/vegetables-basket.jpg" alt="basket" width="94" height="78"/>
+    </li>    
   </ul>
-  <form class="" action="0">
-    <div class="">
-      <label class="modal-label" for="user-name"></label>
-    
-    <div class="modal-sec-input">
+   <div class="order-form"> 
+    <form > 
+      <label class="order-label" for="user-name"></label>
       <input
-        id="user-name"
-        type="text"
-        name="user-name"
-        class="modal-input"
-        placeholder="Text input"
-        
-      />
-      <svg class="modal-input-svg" width="18" height="24">
-        <use href="./images/icons.svg#icon-person-black"></use>
-      </svg>
-    </div>
-  </div>
-    <div class="modal-sec">
-      <label class="modal-label" for="use-name"></label>
-    
-    <div class="modal-sec-input">
-      <input
+      id="user-name"
+      type="name"
+      name="user-name"
+      class="order-form-input" required
+      placeholder="Enter full name..."/>
+
+      <label class="order-label" for="use-name"></label>
+       <input
         id="use-name"
-        type="tel"
-        name="name"
-        class="modal-input"
-        placeholder="Text input"/>
-      <svg class="modal-input-svg" width="18" height="24">
-        <use href="./images/icons.svg#icon-phone-black"></use>
-      </svg>
-    </div>
-  </div>
+        type="email"
+        name="user-email"
+        class="order-form-input" required
+        placeholder="Enter email..."/>
 
-    <div class="modal-sec">
-      <label class="modal-label" for="us-name"></label>
+        <label class="order-label" for="us-name"></label>
+        <input
+          id="us-name"
+          type="tel"
+          name="user-card"
+          class="order-form-input" required
+           placeholder="Enter card.."/>
+
+      <label class="order-label" for="user-comment"></label>
+      <textarea  
+        name="user-comment" 
+        id="user-comment"
+        class="order-label-textarea" 
+        placeholder="Enter comments..." ></textarea>
+      </form> 
+      <button type="submit" class="order-submit-btn">Submit</button>
+      <div class="order-img-below">
+        <img  src="../img/order/img-girl-below.jpg" alt="girl" />
+      </div> 
+      <div class="order-img-big">
+        <img  src="../img/order/img-girl-big.jpg" alt="girl" />
+      </div> 
+  </div>   
     
-    <div class="modal-sec-input">
-      <input
-      id="us-name"
-      type="email"
-      name="name-user"
-      class="modal-input"
-      placeholder="Text input"/>
-      <svg class="modal-input-svg" width="18" height="24">
-        <use href="./images/icons.svg#icon-email-black"></use>
-      </svg>
-    </div>
   </div>
-    <div class="modal-sec-checkbox">
-      <label class="modal-label" for="user-comment"></label>
-      <textarea  name="user-comment" id="user-comment"
-        class="textarea-checkbox" placeholder="Text input" ></textarea>
-    </div>
-    <div class="check-box">
-      <input
-        type="checkbox"
-        class="input-checkbox visually-hidden"
-        name="user-privacy"
-        id="user-privacy"
-        value="true"
-      />
-      <label for="user-privacy" class="chec-text">
-        <span class="chec-span"
-          ><svg class="chec-svg" width="10" height="8">
-            <use href="./images/icons.svg#icon-Vector"></use>
-          </svg>
-        </span>
-      </label>
-      
-    </div>
-    <button type="submit" class="modal-sec-btn">Submit</button>
-  </form>
-</section>
-</div>
 
-  <div class="modal"></div>
-</div>
+
+
+
+
 
 
     
