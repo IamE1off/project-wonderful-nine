@@ -1,6 +1,6 @@
 @media screen and (min-width: 375px) {
-    .container {
-        max-width: 375px;
+    .steps {
+        max-width: 335px;
     }
 }
 
@@ -17,6 +17,8 @@
 }
 .steps-section {
     padding-top: 40px;
+    display: flex;
+    flex-direction: column;
 }
 .steps-wrap {
     display: flex;
@@ -48,19 +50,28 @@
             rgba(161, 196, 135, 0.69) 5.025px,
             transparent 0);
     background-size: 62px 60px;
-    border-radius: 80px;
+    border-radius: 40px;
     z-index: -1;
-    max-width: 375px;
+    max-width: 100%;
 }
 .steps {
     position: relative;
     /* max-width: 375px; */
 }
-.steps-img {
+.steps-picture {
     background-color: transparent;
-    display: flex;
+        justify-content: center;
+        align-items: center;
+
+}
+.steps-img {
+    /* background-color: transparent;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
+    /* flex: 1;
+        display: flex;
+        justify-content: flex-start;
+    */
 }
 .steps-list {
     max-width: 350px;
@@ -71,13 +82,26 @@
     width: 274px;
     flex-direction: column;
     align-items: flex-start;
+    justify-content: center;
     gap: 20px;
+    flex: 1;
+}
+
+.steps-item-box1 {
+    padding-right: 23px;
+}
+.steps-item-box2 {
+    padding-right: 33px; 
+}
+.steps-item-box1 {
+    width: 199px;
 }
 
 .steps-item {
-    margin: 0 0 0.5rem 0;
+    line-height: 1.28;
     counter-increment: my-awesome-counter;
     position: relative;
+    width: 199px;
 }
 
 .steps-item::before {
@@ -86,14 +110,12 @@
     position: absolute;
     --size: 32px;
     left: calc(-1 * var(--size) - 10px);
-    line-height: var(--size);
     width: var(--size);
     height: var(--size);
     top: 0;
     background: var(--green-backround-color);
     border-radius: 200px;
     text-align: center;
-    box-shadow: 1px 1px 0 #999;
     font-family: DM Sans;
     font-size: 18px;
     font-style: normal;
