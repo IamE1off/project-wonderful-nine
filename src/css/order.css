@@ -12,13 +12,22 @@
 }
 
 .backdrop{
- width: 335px;
- height: 903px;
- position: fixed;
- box-shadow: 0px 0px 8.775463104248047px 0px rgba(0, 0, 0, 0.01), 0px 0px 18.17037010192871px 0px rgba(0, 0, 0, 0.02), 0px 0px 36.23749923706055px 0px rgba(0, 0, 0, 0.03), 0px 0px 71.02963256835938px 0px rgba(0, 0, 0, 0.03), 0px 0px 130.5995330810547px 0px rgba(0, 0, 0, 0.04), 0px 0px 223px 0px rgba(0, 0, 0, 0.05);
- border-radius: 20px;
- background: #FFF;
- padding: 20px;
+ width: 100%;
+ height: 100%;
+ position:fixed;
+ top: 0;
+ background-color: #e3ebe7;
+
+}
+.order-modal {
+ position: relative;
+  top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+  box-shadow: 0px 0px 8.775463104248047px 0px rgba(0, 0, 0, 0.01), 0px 0px 18.17037010192871px 0px rgba(0, 0, 0, 0.02), 0px 0px 36.23749923706055px 0px rgba(0, 0, 0, 0.03), 0px 0px 71.02963256835938px 0px rgba(0, 0, 0, 0.03), 0px 0px 130.5995330810547px 0px rgba(0, 0, 0, 0.04), 0px 0px 223px 0px rgba(0, 0, 0, 0.05);
+  border-radius: 20px;
+  background: #FFF;
+  padding: 20px;
 }
 .order-title{
  margin-bottom: 40px;
@@ -162,9 +171,10 @@ letter-spacing: -0.56px;
  padding-top: 14px;
 }
 @media screen and (min-width:428px) {
- .backdrop{
-  
- } 
+ .order-modal{
+ max-width: 335px;
+ max-height: 903px;
+ }
  .order-img-below{
 display: none;
  }
@@ -173,9 +183,8 @@ display: none;
  }
 }
 @media screen and (min-width:768px){ 
- .backdrop{
-  width:704px;
-  height: 853px;
+ .order-modal{
+  min-width:703px;
   margin: 0;
   padding: 40px;
   
@@ -211,15 +220,24 @@ margin-bottom: 6px;
  top: 94px;
 }
 .order-form{
- width: 360px;
- height: 145px;
+display: flex;  
+ width: 100%;
+ height: 100%;
+}
+.order-form-nex{
+  width: 360px;
+ height: 331px;
 }
 .order-img-below{
- display: block;
- position: relative;
- bottom: 343px;
- left: 104%;
- 
+ display: flex;
+ justify-content: space-between;
+ position: absolute;
+ right: 0;
+ bottom: 0;
+
+  }
+  .img-below{
+    border-bottom-right-radius:20px ;
   }
   .order-submit-btn{
    min-width: 114px;
@@ -227,8 +245,8 @@ margin-bottom: 6px;
   }
 }
 @media screen and (min-width:1280px){
- .backdrop{
-  width:891px;
+ .order-modal{
+  min-width:891px;
   height: 911px;
  }
  .order-img{
@@ -244,10 +262,8 @@ margin-bottom: 6px;
 
 .order-img-big{
  display: block;
- position: relative;
- bottom: 355px;
- left: 106%;
- width: 444px;
-  height: 413px;
+ position: absolute;
+ bottom: 0;
+ right: 0;
 }
 }
