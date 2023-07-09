@@ -15,8 +15,7 @@
     display: flex;
     max-width: 1216px;
     gap: 119px;
-    
-    
+   
 }
 
 .how-it-text-container {
@@ -56,6 +55,52 @@
 
 
 /*------------Media------------*/
+
+@media  screen and (min-width: 768px){
+
+    .how-it-container{
+        max-width: 100%;
+
+    }
+
+    .how-it-title{
+        color: var(--black-text-color);
+        font-size: 40px;
+        font-weight: 500;
+        line-height: 44px;
+        letter-spacing: -1.6px;
+        text-transform: uppercase;
+        max-width: 386px;
+
+    }
+
+    .how-it-text{
+        color: var(--black-text-color);
+        font-size: 18px;
+        line-height: 24px;
+        letter-spacing: -0.72px;
+    }
+
+    .how-it-picture {
+        display: flex;
+         max-width: 704px;
+        gap: 8px;
+    
+        }
+
+          .how-it__title-img {
+            max-width: 310px;
+            max-height: 176px;
+          }
+
+          .how-it-text-container{
+            margin-top: 40px;
+            gap: 20px;
+          }
+}
+
+
+
 /*
 @media screen and (min-width: 375px) {
     .container {
