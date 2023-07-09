@@ -1,28 +1,43 @@
-<div class="section steps">
-  <section class="steps-section">
-    <h2 class="steps-heading">3 Easy Steps for Buying Fresh Vegetables</h2>
-    <ol class="steps-list">
-      <li class="steps-item">
-        Just choose the vegetable you want to order by clicking on the
-        checkboxes next to it.
-      </li>
-      <li class="steps-item">Click on the basket and fill out the form.</li>
-      <li class="steps-item">
-        Sit back and relax! Your fresh vegetables basket will be delivered.
-      </li>
-    </ol>
-  </section>
-  <p>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae ad
-    reprehenderit architecto, nostrum rerum velit quos explicabo laborum
-    doloribus rem assumenda? Quae reiciendis officiis vero sequi eius minima
-    omnis esse!
-  </p>
-</div>
-
-<!-- responsive image -->
-<!-- <img
-  srcset="./img/photo.jpg 1x, ./img/photo@2x.jpg 2x"
-  src="./img/photo.jpg"
-  alt="Опис зображення для всіх версій"
-/> -->
+<section class="steps container">
+  <div class="steps-section">
+    <div class="steps-wrap">
+      <h2 class="steps-title">3 Easy Steps for Buying Fresh Vegetables</h2>
+      <ol class="steps-list">
+        <li class="steps-item steps-item-box1">
+          Just choose the vegetable you want to order by clicking on the
+          checkboxes next to it.
+        </li>
+        <li class="steps-item steps-item-box2">
+          Click on the basket and fill out the form.
+        </li>
+        <li class="steps-item steps-item-box3">
+          Sit back and relax! Your fresh vegetables basket will be delivered.
+        </li>
+      </ol>
+    </div>
+    <div class="steps-picture">
+      <picture>
+        <source
+          srcset="
+            ./img/steps/litte-girl-veggy.webp 1x,
+            ./img/steps/little-girl2x.webp    2x
+          "
+          type="image/webp"
+        />
+        <source
+          srcset="
+            ./img/steps/litte-girl-veggy.png 1x,
+            ./img/steps/little-girl2x.png    2x
+          "
+          type="image/png"
+        />
+        <img
+          class="steps-img"
+          src="./img/steps/litte-girl-veggy.png"
+          alt="little-girl-in-red-cap"
+          width="258"
+        />
+      </picture>
+    </div>
+  </div>
+</section>
