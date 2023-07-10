@@ -106,15 +106,15 @@
 
 }
 
-.button-veg {
-    width: 68px;
-    height: 68px;
+/* .button-veg {
+    width: 114px;
+    height: 114px;
     transform: rotate(-14deg);
     color: var(--white-bg-color);
     text-align: center;
     text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
     font-family: inherit;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: -0.56px;
@@ -139,4 +139,4 @@
     align-items: center;
     justify-content: center;
     margin-bottom: 124;
-}
+} */
