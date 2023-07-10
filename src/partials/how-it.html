@@ -6,14 +6,35 @@
           To order your vegetable basket, simply follow these easy steps
         </h2>
       </div>
-
-      <img
-        class="how-it__title-img"
-        src="./img/how-it/vegetables.jpg"
-        alt="Broccoli"
-        width="410"
-        height="170"
-      />
+      <picture>
+        <source
+          srcset="
+            ./img/how-it/vegetables1xdesk.jpg 1x,
+            ./img/how-it/vegetables2xdesk.jpg 2x
+          "
+          media="(min-width: 1280px)"
+        />
+        <source
+          srcset="
+            ./img/how-it/vegetablestab1x.jpg 1x,
+            ./img/how-it/vegetablestab2x.jpg 2x
+          "
+          media="(min-width: 768px)"
+        />
+        <source
+          srcset="
+            ./img/how-it/vegetables1x.jpg 1x,
+            ./img/how-it/vegetables2x.jpg 2x
+          "
+          media="(max-width: 767px)"
+        />
+        <img
+          class="how-it_title-img"
+          src="./img/how-it/vegetables.jpg"
+          alt="Broccoli"
+          width="410"
+        />
+      </picture>
     </div>
     <div class="how-it-text-container">
       <p class="how-it-text text_one">
@@ -51,9 +72,16 @@
         media="(max-width: 767px)"
       />
       <img
-        class="broccoli"
+        class="how-it_title-img"
         src="./img/how-it/vegetables.jpg"
         alt="Broccoli"
-        width="335"
+        width="410"
       />
-    </picture> -->
+    </picture>
+  <img
+        class="how-it__title-img"
+        src="./img/how-it/vegetables.jpg"
+        alt="Broccoli"
+        width="410"
+        height="170"
+      /> -->
