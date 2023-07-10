@@ -36,32 +36,65 @@
   letter-spacing: -0.04em;
   text-transform: uppercase;
 }
-.open-mobile-menu {
- background-color: #FFFFFF;
+.open-mobile-menu, .close-mobile-menu {
+ background-color: transparent;
  border: none;
  fill: #77AC63;
 }
-
-/*---mobail-menu---*/
-
-.container-shopping {
+.close-mobile-menu {
+  background-color: transparent;
   border: none;
+  fill:#77AC63;
+  z-index: 9999;
+}
+/*---mobile-menu---*/
+
+.container-mobile-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #77AC63;
+  transition: transform 250ms linear;
+  transform: translateX(100%)
+}
+.container-mobile-menu.is-open {
+  transform: translateX(0)
+}
+.wrapper-mobile-menu {
+  padding-top: 124px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap:16px; 
+  fill: #FFFFFF;
+  color: #FFFFFF;
 }
 
 .header-list-mobmenu {
-  display: flex;
-  flex-direction: column;
-}
-.icon-shopping {
-  fill: #ffffff;
+display: flex;
+flex-direction: column;
+gap: 16px;
 
 }
+
+.open-modal {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-color: transparent;
+  border: none;
+}
+
 
 .is-hidden {
   opacity: 0;
   pointer-events: none;
   visibility: hidden;
 }
+
 
 @media screen and (min-width: 768px) {
   .header-navigation,
@@ -96,6 +129,8 @@
    width: 20px;
    height: 20px;
    padding: inherit;
+   background-color: transparent;
+   border: none;
   }
   .icon-shopping {
   fill: #141414;
