@@ -170,7 +170,7 @@ letter-spacing: -0.56px;
  resize: none;
  padding-top: 14px;
 }
-@media screen and (min-width:428px) {
+@media screen and (min-width:1px) {
  .order-modal{
  max-width: 335px;
  max-height: 903px;
@@ -179,8 +179,10 @@ letter-spacing: -0.56px;
 display: none;
  }
  .order-img-big{
+  
   display: none;
  }
+ 
 }
 @media screen and (min-width:768px){ 
  .order-modal{
@@ -266,4 +268,6 @@ display: flex;
  bottom: 0;
  right: 0;
 }
+
+
 }
