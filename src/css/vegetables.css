@@ -25,7 +25,7 @@
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
-    margin-bottom: 40px;
+
 
 
 }
@@ -34,6 +34,11 @@
     background-color: #EAF7E5;
     width: calc((100% - 48px) / 3);
     border-radius: 24px;
+}
+
+.veg-img-icons {
+    max-width: 321px;
+    margin: 0 auto;
 }
 
 
@@ -70,7 +75,7 @@
     line-height: 38px;
     letter-spacing: -1.28px;
 
-    padding: 64px 0 8px 24px;
+    margin: 64px 0 8px 24px;
 }
 
 .veg-text {
@@ -78,7 +83,7 @@
     font-size: 18px;
     line-height: 24px;
     letter-spacing: -0.36px;
-    padding: 0 0 0 24px;
+    margin: 0 0 16px 24px;
 }
 
 
@@ -87,6 +92,18 @@
     fill: #141414;
     /* opacity: 0.10000000149011612; */
     filter: blur(13.591408729553223px);
+    position: relative;
+    top: 0;
+    left: 62px;
+}
+
+.veg-text-kg {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.72px;
+    margin: 24px 0 24px 24px;
+
 }
 
 .order-btn {
@@ -112,9 +129,11 @@
     background-color: var(--green-backround-color);
 
 }
+
 .order-icon {
     fill: var(--white-bg-color);
 }
+
 .order-btn-wrap {
     display: flex;
     align-items: center;
