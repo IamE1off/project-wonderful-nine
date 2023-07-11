@@ -1,3 +1,175 @@
 .call-you {
-    background-color: #A1C487;
+  min-width: 280px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  margin-bottom: 80px;
+}
+.info-box-call {
+  margin-bottom: 40px;
+}
+
+.call-you-title {
+  color: #141414;
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.16;
+  letter-spacing: -0.96px;
+  text-transform: uppercase;
+  text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+.call-you-text {
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
+  color: #141414;
+  line-height: 1.28;
+  letter-spacing: -0.56px;
+  padding-left: 7px;
+  padding-right: 7px;
+  margin-bottom: 40px;
+}
+.call-you-form {
+  max-width: 335px;
+  display: inline-flex;
+}
+.call-label {
+  width: 100%;
+}
+.tel-input {
+  width: 295px;
+  height: 48px;
+  color: #c1bdbd;
+  border-radius: 100px;
+  border: 1px solid #141414;
+  padding-left: 24px;
+  opacity: 0.30000001192092896;
+}
+.call-you-btn {
+  letter-spacing: -0.56px;
+  text-transform: capitalize;
+  position: relative;
+  right: 65px;
+  padding: 15px 35px;
+  border-radius: 100px;
+  color: #fff;
+  background: #fc8a11;
+  border: none;
+  margin: 0;
+}
+.call-you-img {
+  width: 335px;
+  height: 388px;
+  position: relative;
+  content: '';
+  background: #faf3e7;
+  background-image: radial-gradient(
+    circle at 25px 20px,
+    rgba(161, 196, 135, 0.69) 2px,
+    transparent 0
+  );
+  background-size: 42px 42px;
+  border-radius: 40px;
+}
+.img-call {
+  position: absolute;
+  bottom: 0;
+}
+
+@media screen and (min-width: 375px) {
+  .call-you {
+    max-width: 335px;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .call-you {
+    max-width: 704px;
+    width: 100%;
+    margin-bottom: 173px;
+  }
+  .info-box-call {
+    width: 524px;
+    margin: 0 90px 80px 90px;
+  }
+  .call-you-title {
+    font-size: 40px;
+    line-height: 1.1;
+    letter-spacing: -1.6px;
+    padding: 0;
+  }
+  .call-you-text {
+    max-width: 499px;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: -0.72px;
+    padding-left: 12.5px;
+    padding-right: 12.5px;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+  }
+
+  .call-you-form {
+    margin-left: 72px;
+  }
+  .tel-input {
+    width: 350px;
+  }
+  .call-you-img {
+    width: 704px;
+    height: 463px;
+    border-radius: 80px;
+  }
+  .img-call {
+    height: unset;
+    margin-left: 33px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .call-you {
+    max-width: 1216px;
+    width: 100%;
+    flex-direction: unset;
+    justify-content: unset;
+    margin-bottom: 124px;
+  }
+  .info-box-call {
+    width: 614px;
+    margin: 98px 77px 98px 0;
+  }
+  .call-you-title {
+    font-size: 48px;
+    line-height: 1.04;
+    letter-spacing: -1.92px;
+    text-align: unset;
+    padding: 0;
+    margin-bottom: 40px;
+  }
+  .call-you-text {
+    max-width: 523px;
+    margin-bottom: 80px;
+    text-align: unset;
+    padding: 0;
+    margin-right: 91px;
+  }
+  .call-you-form {
+    margin-left: 0;
+  }
+  .call-you-img {
+    width: 525px;
+    height: 536px;
+    margin-bottom: unset;
+  }
+  .img-call {
+    margin-left: unset;
+  }
 }

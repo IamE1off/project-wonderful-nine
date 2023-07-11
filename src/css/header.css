@@ -1,4 +1,157 @@
-.header {
-  padding: 20px 0;
-  background-color: #FAF3EF;
+.header {  
+  background-color: #FFFFFF;
+  height: 50px;
+  }
+
+.header-container {
+  padding: 16px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-navigation, .container-button-shopping {
+  display: none;
+  }
+.logo-veggieboost {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+
+.icon-svg-vector {
+ width: 16px;
+ height: 16px;
+ fill: #77AC63;
+}
+
+.logo-name {
+  color: #141414;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.28;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+}
+.open-mobile-menu, .close-mobile-menu {
+ background-color: transparent;
+ border: none;
+ fill: #77AC63;
+}
+.close-mobile-menu {
+  background-color: transparent;
+  border: none;
+  fill:#77AC63;
+  z-index: 9999;
+}
+/*---mobile-menu---*/
+
+.container-mobile-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #77AC63;
+  transition: transform 250ms linear;
+  transform: translateX(100%)
+}
+.container-mobile-menu.is-open {
+  transform: translateX(0)
+}
+.wrapper-mobile-menu {
+  padding-top: 124px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap:16px; 
+  fill: #FFFFFF;
+  color: #FFFFFF;
+}
+
+.header-list-mobmenu {
+display: flex;
+flex-direction: column;
+gap: 16px;
+
+}
+
+.open-modal {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-color: transparent;
+  border: none;
+}
+
+
+.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
+}
+
+
+@media screen and (min-width: 768px) {
+  .header-navigation,
+  .container-button-shopping {
+  display: flex;
+}
+.container-button-openmobmenu {
+  display: none;
+}       
+.header-list {
+  display: flex;
+  flex-direction: row;
+  gap: 14px;
+  }
+.header-item {
+  color: #141414;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.28;
+  letter-spacing: -0.04em;
+  }
+  .container-navigation-logo {
+   display: flex;
+   gap: 86px;
+  }
+  .open-modal {
+   background-color: #FFFFFF; 
+   border: none;
+   width: 20px;
+   height: 20px;
+   padding: inherit;
+   background-color: transparent;
+   border: none;
+  }
+  .icon-shopping {
+  fill: #141414;
+  }
+}
+@media screen and (min-width: 1280px) {
+.header-list {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+  .container-navigation-logo {
+    display: flex;
+    gap: 308px;
+  }
+  .open-modal {
+    width: 24px;
+    height: 24px;      
+  }
+  .icon-shopping {
+    width: 24px;
+    height: 24px;
+  }
 }
