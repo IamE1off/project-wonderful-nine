@@ -4,7 +4,7 @@
   }
 
 .header-container {
-  padding: 16px 20px;
+  padding: 13px 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -23,7 +23,7 @@
  width: 16px;
  height: 16px;
  fill: #77AC63;
-}
+ }
 
 .logo-name {
   color: #141414;
@@ -40,6 +40,7 @@
  background-color: transparent;
  border: none;
  fill: #77AC63;
+ stroke: #77AC63;
 }
 .close-mobile-menu {
   background-color: transparent;
@@ -53,14 +54,14 @@
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
   background-color: #77AC63;
-  transition: transform 250ms linear;
-  transform: translateX(100%)
+  transition: transform 250ms ease-in-out;
+  transform: translateX(100%);
 }
 .container-mobile-menu.is-open {
-  transform: translateX(0)
+  transform: translateX(0);
 }
 .wrapper-mobile-menu {
   padding-top: 124px;
