@@ -1,0 +1,57 @@
+.hero-button {
+    width: 132px;
+    height: 132px;
+    border-radius: 50%;
+    border: none;
+    background-color: var(--light-bg-button-color);
+    transform: rotate(-14deg);
+    color: var(--orange-button-color);
+    font-family: inherit;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+}
+
+.hero-button:is(:hover, :focus) {
+    background-color: var(--light-green-cards-color);
+    color: var(--green-backround-color);
+
+}
+
+.button-veg {
+    width: 114px;
+    height: 114px;
+    transform: rotate(-14deg);
+    color: var(--white-bg-color);
+    text-align: center;
+    text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.10);
+    font-family: inherit;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: -0.56px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 50%;
+    background-color: var(--orange-button-color);
+    margin-bottom: 8px;
+}
+
+.button-veg:is(:hover, :focus) {
+    background-color: var(--green-backround-color);
+}
+
+.order-icon {
+    fill: var(--white-bg-color);
+    margin-right: 4px;
+}
+
+.order-btn-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 124px;
+
+}

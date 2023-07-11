@@ -13,6 +13,7 @@
 @import url('./call-you.css');
 @import url('./footer.css');
 @import url('./order.css');
+@import url('./button.css');
 
 @font-face {
   font-family: 'DM Sans';
@@ -88,13 +89,13 @@
 
 :root {
   --black-text-color: #141414;
-  --green-backround-color: #A1C487;
-  --light-green-cards-color: #EAF7E5;
-  --orange-button-color: #FC8A11;
-  --light-bg-button-color: #FAF3E7;
+  --green-backround-color: #a1c487;
+  --light-green-cards-color: #eaf7e5;
+  --orange-button-color: #fc8a11;
+  --light-bg-button-color: #faf3e7;
   --white-bg-color: #ffffff;
-  --grey-bg-button-color: #F9F7F4;
-  --grey-color: #F3F3F3;
+  --grey-bg-button-color: #f9f7f4;
+  --grey-color: #f3f3f3;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -138,19 +139,18 @@ textarea {
   max-width: 100%;
   margin: 0 auto;
 }
-@media screen and (min-width: 375px) {
+/* @media screen and (min-width: 375px) {
   .container {
     max-width: 375px;
     padding-left: 20px;
     padding-right: 20px;
   }
-}
+} */
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
     padding-left: 32px;
     padding-right: 32px;
-
   }
 }
 @media screen and (min-width: 1280px) {
@@ -162,7 +162,7 @@ textarea {
 body {
   font-family: DM sans, sans-serif;
   font-size: 14px;
-  line-height: 1.28; 
+  line-height: 1.28;
   font-weight: 400;
   letter-spacing: -0.56px;
   color: var(--black-text-color);
