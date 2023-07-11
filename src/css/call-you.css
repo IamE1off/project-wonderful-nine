@@ -47,11 +47,17 @@
 .tel-input {
   width: 295px;
   height: 48px;
-  color: #c1bdbd;
   border-radius: 100px;
   border: 1px solid #141414;
   padding-left: 24px;
   opacity: 0.30000001192092896;
+}
+.tel-input::placeholder {
+  color: rgba(20, 20, 20, 0.5);
+  font-family: DM Sans;
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.56px;
 }
 .call-you-btn {
   letter-spacing: -0.56px;
