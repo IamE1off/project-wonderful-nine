@@ -256,7 +256,7 @@ display: flex;
 @media screen and (min-width:1280px){
  .order-modal{
   width:891px;
-  height: 911px;
+  max-height: 911px;
  }
  .order-img{
   width: 243px;
