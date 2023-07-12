@@ -1,3 +1,4 @@
+
 .hero-btn {
     width: 68px;
     height: 68px;
@@ -7,19 +8,46 @@
     transform: rotate(-14deg);
     color: var(--orange-button-color);
     font-family: inherit;
-    font-size: 14px;
+    font-size: 1.14;
     font-weight: 500;
     line-height: 1;
     letter-spacing: -0.04em;
     text-transform: uppercase;
+    margin-bottom: 8px;
+}
+@media screen and (min-width: 768px) {
+    .hero-button {
+        width: 114px;
+        height: 114px;
+        font-size: 24px;
+        line-height: 1;
+        letter-spacing: -0.96px;      
+    }  
+    
+}
+@media screen and (min-width: 1280px) {
+    .hero-button {
+        display: block;
+        width: 132px;
+        height: 132px;
+        font-size: 28px;
+        line-height: 1;
+        letter-spacing: -1.12px;
+      
+    }
 }
 
 .hero-btn:is(:hover, :focus) {
+
     background-color: var(--light-green-cards-color);
     color: var(--green-backround-color);
 }
 
 .hero-btn:hover {
+    background-color: var(--light-green-cards-color);
+    color: var(--green-backround-color);
+}
+.hero-button:focus{
     background-color: var(--light-green-cards-color);
     color: var(--green-backround-color);
 }
@@ -42,18 +70,13 @@
     background-color: var(--orange-button-color);
     margin-bottom: 8px;
 }
-
-
-
 .button-veg:is(:hover, :focus) {
     background-color: var(--green-backround-color);
 }
-
 .order-icon {
     fill: var(--white-bg-color);
     margin-right: 4px;
 }
-
 .order-btn-wrap {
     display: flex;
     align-items: center;
