@@ -9,15 +9,13 @@
 }
 
 .footer_container {
-  max-width: 1280px;
   width: 100%;
   padding-left: 32px;
   padding-right: 32px;
-
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 /* -----------------section one---------------- */
 .body-footer__imgbox {
