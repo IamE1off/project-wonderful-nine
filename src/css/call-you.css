@@ -20,7 +20,7 @@
   line-height: 1.16;
   letter-spacing: -0.96px;
   text-transform: uppercase;
-  text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
+  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
   margin-bottom: 20px;
   padding-left: 6px;
   padding-right: 6px;
@@ -29,7 +29,7 @@
   text-align: center;
   font-size: 14px;
   font-style: normal;
-  text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
+  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
   color: #141414;
   line-height: 1.28;
   letter-spacing: -0.56px;
@@ -47,17 +47,23 @@
 .tel-input {
   width: 295px;
   height: 48px;
-  color: #c1bdbd;
   border-radius: 100px;
   border: 1px solid #141414;
   padding-left: 24px;
   opacity: 0.30000001192092896;
 }
+.tel-input::placeholder {
+  color: rgba(20, 20, 20, 0.5);
+  font-family: DM Sans;
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.56px;
+}
 .call-you-btn {
   letter-spacing: -0.56px;
   text-transform: capitalize;
   position: relative;
-  right: 65px;
+  right: 105px;
   padding: 15px 35px;
   border-radius: 100px;
   color: #fff;
@@ -120,6 +126,7 @@
 
   .call-you-form {
     margin-left: 72px;
+    max-width: 350px;
   }
   .tel-input {
     width: 350px;
