@@ -6,7 +6,7 @@
 */
 @import url('./reset.css');
 @import url('./header.css');
-@import url('./hero.css');
+/* @import url('./hero.css'); */
 @import url('./hero-try.css');
 @import url('./how-it.css');
 @import url('./steps.css');
@@ -140,13 +140,13 @@ textarea {
   max-width: 100%;
   margin: 0 auto;
 }
-/* @media screen and (min-width: 375px) {
+@media screen and (min-width: 375px) {
   .container {
     max-width: 375px;
     padding-left: 20px;
     padding-right: 20px;
   }
-} */
+}
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
@@ -168,4 +168,5 @@ body {
   letter-spacing: -0.56px;
   color: var(--black-text-color);
   background-color: var(--white-bg-color);
+  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
 }
