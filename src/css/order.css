@@ -20,10 +20,8 @@
 
 }
 .order-modal {
- position: relative;
-  top: 50%;
- left: 50%;
- transform: translate(-50%, -50%);
+  width: 100%; 
+  transform: translate(-50%, -50%);
   box-shadow: 0px 0px 8.775463104248047px 0px rgba(0, 0, 0, 0.01), 0px 0px 18.17037010192871px 0px rgba(0, 0, 0, 0.02), 0px 0px 36.23749923706055px 0px rgba(0, 0, 0, 0.03), 0px 0px 71.02963256835938px 0px rgba(0, 0, 0, 0.03), 0px 0px 130.5995330810547px 0px rgba(0, 0, 0, 0.04), 0px 0px 223px 0px rgba(0, 0, 0, 0.05);
   border-radius: 20px;
   background: #FFF;
@@ -57,6 +55,7 @@
  stroke:#141414;
 }
 .order-list{
+  
  border-radius: 20px;
  background: #FFF;
  gap: 12px;
@@ -116,8 +115,9 @@ border-radius: 20%;
 fill: transparent;
 }
 .order-svg-pick{
-  cursor: pointer;
- 
+
+ cursor: pointer;
+
 }
 .order-input:checked + .order-chec-text span{
  fill: var(--green-backround-color);
@@ -155,7 +155,9 @@ fill: transparent;
  border: 1px solid rgba(20, 20, 20, 0.30);
  padding: 0;
  padding-left: 24px;
- 
+
+ outline-color: var(--orange-button-color);
+
 }
 .order-form-input::placeholder,
 .order-label-textarea::placeholder{
@@ -178,22 +180,33 @@ letter-spacing: -0.56px;
  padding-left: 24px;
  resize: none;
  padding-top: 14px;
+ outline-color: var(--orange-button-color);
 }
-@media screen and (min-width:428px) {
+.test{
+  
+  width: 335px;
+  height: 903px; 
+  position: relative;
+  top: 50%;
+ left: 50%;
+}
+@media screen and (min-width:320px) {
  .order-modal{
- max-width: 335px;
- max-height: 903px;
+ 
  }
  .order-img-below{
 display: none;
  }
  .order-img-big{
+  
   display: none;
  }
+ 
 }
 @media screen and (min-width:768px){ 
  .order-modal{
-  min-width:703px;
+  width:704px;
+  height: 853px;
   margin: 0;
   padding: 40px;
   
@@ -255,8 +268,8 @@ display: flex;
 }
 @media screen and (min-width:1280px){
  .order-modal{
-  min-width:891px;
-  height: 911px;
+  width:891px;
+  max-height: 911px;
  }
  .order-img{
   width: 243px;
@@ -275,4 +288,6 @@ display: flex;
  bottom: 0;
  right: 0;
 }
+
+
 }

@@ -16,24 +16,34 @@
     <div class="steps-picture">
       <picture>
         <source
+          media="(min-width: 1280px)"
           srcset="
-            ./img/steps/litte-girl-veggy.webp 1x,
-            ./img/steps/little-girl2x.webp    2x
+            ./img/steps/girl_salad_pc.webp   1x,
+            ./img/steps/girl_salad_pc2x.webp 2x
           "
           type="image/webp"
         />
         <source
+          media="(min-width: 768px)"
           srcset="
-            ./img/steps/litte-girl-veggy.png 1x,
-            ./img/steps/little-girl2x.png    2x
+            ./img/steps/girl_salad_tab.png   1x,
+            ./img/steps/girl_salad_tabx2.png 2x
+          "
+          type="image/png"
+        />
+        <source
+          media="(max-width: 767px)"
+          srcset="
+            ./img/steps/girl_salad_mob.png   1x,
+            ./img/steps/girl_salad_mob2x.png 2x
           "
           type="image/png"
         />
         <img
           class="steps-img"
-          src="./img/steps/litte-girl-veggy.png"
-          alt="little-girl-in-red-cap"
-          width="258"
+          src="../img/steps/girl_salad.png"
+          alt="a smiling girl with salad"
+          width="434"
         />
       </picture>
     </div>
