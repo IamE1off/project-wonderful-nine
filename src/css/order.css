@@ -114,7 +114,7 @@ border-radius: 20%;
 fill: transparent;
 }
 .order-svg-pick{
- 
+ cursor: pointer;
 }
 .order-input:checked + .order-chec-text span{
  fill: var(--green-backround-color);
@@ -148,6 +148,7 @@ fill: transparent;
  border: 1px solid rgba(20, 20, 20, 0.30);
  padding: 0;
  padding-left: 24px;
+ outline-color: var(--orange-button-color);
 }
 .order-form-input::placeholder,
 .order-label-textarea::placeholder{
@@ -168,6 +169,7 @@ letter-spacing: -0.56px;
  padding-left: 24px;
  resize: none;
  padding-top: 14px;
+ outline-color: var(--orange-button-color);
 }
 .test{
   
@@ -256,7 +258,7 @@ display: flex;
 @media screen and (min-width:1280px){
  .order-modal{
   width:891px;
-  height: 911px;
+  max-height: 911px;
  }
  .order-img{
   width: 243px;
