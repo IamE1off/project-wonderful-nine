@@ -1,10 +1,107 @@
 <header class="header">
-  <div class="section">
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae ad
-      reprehenderit architecto, nostrum rerum velit quos explicabo laborum
-      doloribus rem assumenda? Quae reiciendis officiis vero sequi eius minima
-      omnis esse!
-    </p>
+  <div class="header-container container">
+    <div class="container-navigation-logo">
+      <nav class="header-navigation">
+        <ul class="header-list list">
+          <li class="header-item">
+            <a href="#how-it">How It Works</a>
+          </li>
+          <li class="header-item">
+            <a href="#vegetables">Vegetables</a>
+          </li>
+          <li class="header-item">
+            <a href="#contacts">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="container-header-logo">
+        <ul class="logo-veggieboost">
+          <li class="logo-icon">
+            <a class="icon-vector" href="./index.html">
+              <svg class="icon-svg-vector" width="16" height="16">
+                <use href="./img/icons.svg#icon-logo-veg"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="logo-name">veggieboost</li>
+        </ul>
+      </div>
+    </div>
+    <div class="container-button-shopping">
+      <button type="button" class="open-modal data-modal-open" data-modal-open>
+        <svg class="icon-shopping" width="20" height="20">
+          <use href="./img/icons.svg#icon-shopping-cart"></use>
+        </svg>
+      </button>
+    </div>
+    <div class="container-button-openmobmenu">
+      <button
+        type="button"
+        class="open-mobile-menu burger__open-btn"
+        mobileMenu
+      >
+        <svg class="icon-burger" width="24" height="24">
+          <use href="./img/icons.svg#icon-sandwich-menu"></use>
+        </svg>
+      </button>
+    </div>
+  </div>
+  <!---------mobile-menu--------->
+  <div class="container-mobile-menu burger__menu" mobileMenu>
+    <header class="header">
+      <div class="header-container container">
+        <div class="container-header-logo">
+          <ul class="logo-veggieboost">
+            <li class="logo-icon">
+              <a class="icon-vector" href="./index.html">
+                <svg class="icon-svg-vector" width="16" height="16">
+                  <use href="./img/icons.svg#icon-logo-veg"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="logo-name">veggieboost</li>
+          </ul>
+        </div>
+        <div class="container-button-close">
+          <button
+            type="button"
+            class="close-mobile-menu burger__close-btn"
+            mobileMenu
+          >
+            <svg class="icon-svg-burger" width="24" height="24">
+              <use href="./img/icons.svg#icon-x-close"></use>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </header>
+    <div class="wrapper-mobile-menu">
+      <div class="navigation-mobile-menu container">
+        <nav class="header-navigation-mobmenu">
+          <ul class="header-list-mobmenu list">
+            <li class="header-item">
+              <a href="#how-it">How It Works</a>
+            </li>
+            <li class="header-item">
+              <a href="#vegetables">Vegetables</a>
+            </li>
+            <li class="header-item">
+              <a href="#contacts">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="container-button-shopping-menu container">
+        <button
+          type="button"
+          class="open-modal data-modal-open"
+          data-modal-open
+        >
+          <svg class="icon-shopping" width="24" height="24">
+            <use href="./img/icons.svg#icon-shopping-cart"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
   </div>
 </header>
