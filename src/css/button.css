@@ -1,4 +1,4 @@
-.hero-button {
+.hero-btn {
     width: 68px;
     height: 68px;
     border-radius: 50%;
@@ -14,10 +14,14 @@
     text-transform: uppercase;
 }
 
-.hero-button:is(:hover, :focus) {
+.hero-btn:is(:hover, :focus) {
     background-color: var(--light-green-cards-color);
     color: var(--green-backround-color);
+}
 
+.hero-button:hover {
+    background-color: var(--light-green-cards-color);
+    color: var(--green-backround-color);
 }
 
 .button-veg {
@@ -39,6 +43,8 @@
     margin-bottom: 8px;
 }
 
+
+
 .button-veg:is(:hover, :focus) {
     background-color: var(--green-backround-color);
 }
@@ -52,7 +58,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    /* margin-bottom: 124px; */
 
 }
 
