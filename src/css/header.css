@@ -88,14 +88,6 @@ gap: 16px;
   border: none;
 }
 
-
-.is-hidden {
-  opacity: 0;
-  pointer-events: none;
-  visibility: hidden;
-}
-
-
 @media screen and (min-width: 768px) {
   .header-navigation,
   .container-button-shopping {
