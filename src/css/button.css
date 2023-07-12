@@ -19,7 +19,7 @@
     color: var(--green-backround-color);
 }
 
-.hero-button:hover {
+.hero-btn:hover {
     background-color: var(--light-green-cards-color);
     color: var(--green-backround-color);
 }
@@ -62,7 +62,7 @@
 }
 
 @media screen and (min-width:768px) {
-    .hero-button {
+    .hero-btn {
         width: 114px;
         height: 114px;
         font-size: 24px;
@@ -76,7 +76,7 @@
 }
 
 @media screen and (min-width:1280px) {
-    .hero-button {
+    .hero-btn {
         width: 132px;
         height: 132px;
         font-size: 28px;
