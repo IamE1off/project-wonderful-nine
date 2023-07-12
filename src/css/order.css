@@ -97,6 +97,7 @@ letter-spacing: -0.72px;
  position: absolute;
  right:14px;
  top: 14px;
+ 
 
 }
 .order-chec-text{
@@ -115,11 +116,14 @@ border-radius: 20%;
 fill: transparent;
 }
 .order-svg-pick{
+  cursor: pointer;
  
 }
 .order-input:checked + .order-chec-text span{
  fill: var(--green-backround-color);
-}
+ 
+ }
+ 
 .order-img{
  position: absolute;
  right: 30px;
@@ -137,6 +141,7 @@ fill: transparent;
  line-height: 1.28;
  letter-spacing: -0.56px;
  padding: 0;
+ cursor: pointer;
  border: 0; 
 }
 
@@ -144,11 +149,13 @@ fill: transparent;
 .order-form-input{
   width: 100%;
  height: 46px;
+ outline-color: var(--orange-button-color);
  margin-bottom: 14px;
  border-radius: 100px;
  border: 1px solid rgba(20, 20, 20, 0.30);
  padding: 0;
  padding-left: 24px;
+ 
 }
 .order-form-input::placeholder,
 .order-label-textarea::placeholder{
@@ -158,9 +165,11 @@ font-size: 14px;
 font-weight: 400;
 line-height: 1.28;
 letter-spacing: -0.56px;
+
 }
 .order-label-textarea{
  width: 100%;
+ outline-color: var(--orange-button-color);
  height: 132px;
  margin-bottom: 20px;
  border-radius: 20px;
