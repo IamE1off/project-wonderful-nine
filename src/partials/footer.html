@@ -1,10 +1,30 @@
 <footer class="footer container">
   <div class="footer_container">
     <div class="body-footer__imgbox">
-      <img
-        src="./img/imgFooter/img_vegetables.png"
-        alt="Foter img vegetables"
-      />
+      <picture>
+        <source
+          media="(min-width: 375px)"
+          srcset="
+            ./img/imgFooter/img_vegetablesmob-2.png  1x,
+            ./img/imgFooter/img_vegetablesmob2-2.png 2x
+          "
+        />
+        <source
+          media="(min-width: 768px)"
+          srcset="
+            ./img/imgFooter/img_vegetablestab-2.png  1x,
+            ./img/imgFooter/img_vegetablestab2-2.png 2x
+          "
+        />
+        <source
+          media="(min-width: 1280px)"
+          srcset="
+            ./img/imgFooter/img_vegetablesdesk-2.png   1x,
+            ./img/imgFooter/img_vegetablesdeskx2-2.png 2x
+          "
+        />
+        <img src="../img/imgFooter/img_vegetablesdesk-2.png" alt="vegetables" />
+      </picture>
       <a href="./index.html" class="body-footer__logo">
         <svg class="footer-icon-logo">
           <use href="./img/icons.svg#icon-logo-veg"></use>
@@ -48,14 +68,14 @@
         <li class="body-footer__sol-item">
           <a href="#" class="body-footer__sol-link">
             <svg width="40" height="40" class="footer-icon-sol">
-              <use href="../img/icons.svg#icon-instagram"></use>
+              <use href="./img/icons.svg#icon-instagram"></use>
             </svg>
           </a>
         </li>
         <li class="body-footer__sol-item">
           <a href="#" class="body-footer__sol-link">
             <svg width="40" height="40" class="footer-icon-sol">
-              <use href="../img/icons.svg#icon-youtube"></use>
+              <use href="./img/icons.svg#icon-youtube"></use>
             </svg>
           </a>
         </li>
