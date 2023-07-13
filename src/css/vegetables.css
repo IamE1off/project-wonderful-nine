@@ -1,6 +1,5 @@
 .vegetables {
-    padding-top: 124px;
-    padding-bottom: 124px;
+
     background-color: #FFFFFF;
 
 }
@@ -55,6 +54,12 @@
     height: 443px;
     padding: 40px 20px 20px;
     border-radius: 20px;
+}
+
+.veg-item:is(:hover, :active) {
+    transform: scale(1.1) !important;
+    box-shadow: 0 0 25px 1px rgba(0, 0, 0, 0.3);
+    z-index: 2;
 }
 
 .veg-item:last-child {
