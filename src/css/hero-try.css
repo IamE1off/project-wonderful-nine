@@ -1,9 +1,9 @@
 .hero {
+  max-width: 100%;
   padding-top: 48px;
   padding-bottom: 20px;
   background: var(--green-backround-color);
   color: var(--white-bg-color);
-  margin-bottom: 80px;
 }
 
 .hero-img {
@@ -116,7 +116,7 @@
 /******* ! MEDIA 768 *********/
 @media screen and (min-width: 768px) {
   .hero {
-    margin-bottom: 100px;
+    /* margin-bottom: 100px; */
   }
   .hero-img {
     width: 158px;
@@ -166,7 +166,7 @@
 
 @media screen and (min-width: 1280px) {
   .hero {
-    margin-bottom: 124px;
+    /* margin-bottom: 124px; */
   }
   .container-hero {
     display: flex;
