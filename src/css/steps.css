@@ -72,6 +72,7 @@
 
 .steps-img {
   margin: 0 auto;
+  width: 258px;
 }
 
 /* .grow {
@@ -93,11 +94,6 @@
     height: 446px;
     bottom: 0;
     left: 20px;
-  }
-
-  .steps-img {
-    width: 350px;
-    height: 446px;
   }
 
   .steps-wrap {
@@ -124,6 +120,9 @@
 
   .steps-item {
     max-width: 231px;
+  }
+  .steps-img {
+    width: auto;
   }
 }
 
