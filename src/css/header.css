@@ -132,7 +132,8 @@
     border: none;
   }
   .icon-shopping {
-    fill: #141414;
+    fill: transparent;
+    stroke: var(--black-text-color);
   }
 }
 @media screen and (min-width: 1280px) {
