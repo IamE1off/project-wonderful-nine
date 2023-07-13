@@ -145,6 +145,7 @@ textarea {
     max-width: 375px;
     padding-left: 20px;
     padding-right: 20px;
+    margin-bottom: 80px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -152,11 +153,13 @@ textarea {
     max-width: 768px;
     padding-left: 32px;
     padding-right: 32px;
+    margin-bottom: 100px;
   }
 }
 @media screen and (min-width: 1280px) {
   .container {
     max-width: 1280px;
+    margin-bottom: 124px;
   }
 }
 
