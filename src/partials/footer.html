@@ -1,9 +1,31 @@
 <footer class="footer">
     <div class="body-footer__imgbox">
-      <img
-        src="./img/imgFooter/img_vegetables.png"
-        alt="Foter img vegetables"
-      />
+
+      <picture>
+        <source
+          media="(min-width: 375px)"
+          srcset="
+            ./img/imgFooter/img_vegetablesmob-2.png  1x,
+            ./img/imgFooter/img_vegetablesmob2-2.png 2x
+          "
+        />
+        <source
+          media="(min-width: 768px)"
+          srcset="
+            ./img/imgFooter/img_vegetablestab-2.png  1x,
+            ./img/imgFooter/img_vegetablestab2-2.png 2x
+          "
+        />
+        <source
+          media="(min-width: 1280px)"
+          srcset="
+            ./img/imgFooter/img_vegetablesdesk-2.png   1x,
+            ./img/imgFooter/img_vegetablesdeskx2-2.png 2x
+          "
+        />
+        <img src="./img/imgFooter/img_vegetablesdesk-2.png" alt="vegetables" />
+      </picture>
+
       <a href="./index.html" class="body-footer__logo">
         <svg class="footer-icon-logo">
           <use href="./img/icons.svg#icon-logo-veg"></use>
