@@ -1,11 +1,17 @@
 .hero {
+  padding-bottom: 0;
+  background: var(--green-backround-color);
   max-width: 100%;
   padding-top: 48px;
-  padding-bottom: 20px;
-  background: var(--green-backround-color);
+  padding-left: 20px;
+  padding-right: 20px;
   color: var(--white-bg-color);
 }
-
+.container-hero {
+  max-width: 100%;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
 .hero-img {
   margin-bottom: 14px;
 }

@@ -26,10 +26,3 @@
     bodyScrollLock.enableBodyScroll(document.body);
   });
 })();
-
-(function () {
-  const nav = document.querySelector('.container-mobile-menu');
-  nav.addEventListener('click', function (ev) {
-    nav.setAttribute('style', 'visibility:hidden');
-  });
-})();

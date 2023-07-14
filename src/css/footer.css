@@ -30,7 +30,7 @@
   justify-items: center;
   gap: 8px;
 
-  padding: 20px;
+  margin: 20px 0 40px 0;
   text-decoration: none;
   color: var(--title-color);
   text-transform: uppercase;
@@ -51,7 +51,7 @@
 }
 .body-footer__menu {
   display: flex;
-  gap: 20px;
+  gap: 12px;
 }
 .contacts-footer__item {
   list-style: none;
@@ -124,7 +124,7 @@
     align-items: center;
   }
 }
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (min-width: 320px) {
   .footer_container {
     display: flex;
     flex-direction: column;
@@ -137,5 +137,11 @@
   }
   .text-info {
     text-align: center;
+  }
+}
+@media screen and (min-width: 375px) {
+  .body-footer__menu {
+    display: flex;
+    gap: 20px;
   }
 }
