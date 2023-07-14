@@ -14,8 +14,8 @@
       referrerpolicy="no-referrer"
     />
     
-    <script type="module" crossorigin src="/project-wonderful-nine/assets/index-1c920e86.js"></script>
-    <link rel="stylesheet" href="/project-wonderful-nine/assets/index-1e37d051.css">
+    <script type="module" crossorigin src="/project-wonderful-nine/assets/index-7d5dc7b2.js"></script>
+    <link rel="stylesheet" href="/project-wonderful-nine/assets/index-dc62c917.css">
   </head>
   <body>
     <header class="header">
@@ -192,7 +192,7 @@
   </div>
 </section> -->
 
-      <section class="hero container" id="hero">
+      <section class="hero" id="hero">
   <div class="container-hero">
     <div class="hero-dekstop-leftside">
       <img
@@ -240,8 +240,8 @@
   <!-- !**** MODAL MENU ****! -->
 </section>
 
-      <section class="how-it container" id="how-it">
-  <div class="how-it-container">
+      <section class="how-it" id="how-it">
+  <div class="how-it-container container">
     <div class="how-it-picture">
       <h2 class="how-it-title">
         To order your vegetable basket, simply follow these easy steps
@@ -282,9 +282,9 @@
   </div>
 </section>
 
-      <section class="steps-section container">
-  <div class="steps">
-    <div class="steps-section">
+      <section class="steps-section">
+  <div class="container">
+    <div class="steps">
       <div class="steps-wrap">
         <h2 class="steps-title">3 Easy Steps for Buying Fresh Vegetables</h2>
         <ol class="steps-list">
@@ -498,56 +498,58 @@
 
   </div>
 </section>
-      <section class="call-you">
-  <div class="info-box-call">
-    <h2 class="call-you-title">FRESH HARVEST BOX HAS GOT YOU COVERED</h2>
-    <p class="call-you-text">
-      Our boxes are packed with delicious, nutritious vegetables, perfect for
-      anyone looking to eat healthier or support local farmers. Order your box
-      today and start enjoying the best that nature has to offer!
-    </p>
+      <section class="call-you-section">
+  <div class="container call-you">
+    <div class="info-box-call">
+      <h2 class="call-you-title">FRESH HARVEST BOX HAS GOT YOU COVERED</h2>
+      <p class="call-you-text">
+        Our boxes are packed with delicious, nutritious vegetables, perfect for
+        anyone looking to eat healthier or support local farmers. Order your box
+        today and start enjoying the best that nature has to offer!
+      </p>
 
-    <form class="call-you-form">
-      <label for="tel" class="call-label">
-        <input
-          id="tel"
-          placeholder="+380()"
-          pattern="[\+]\d{3}\s[\(]\d{2}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}"
-          minlength="13"
-          maxlength="13"
-          type="tel"
-          class="tel-input"
-          name="tel"
+      <form class="call-you-form">
+        <label for="tel" class="call-label">
+          <input
+            id="tel"
+            placeholder="+380()"
+            pattern="[\+]\d{3}\s[\(]\d{2}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}"
+            minlength="13"
+            maxlength="13"
+            type="tel"
+            class="tel-input"
+            name="tel"
+          />
+        </label>
+        <button type="submit" class="call-you-btn">Recall</button>
+      </form>
+    </div>
+    <div class="call-you-img">
+      <picture>
+        <source
+          media="(min-width: 1280px)"
+          srcset="/project-wonderful-nine/assets/girl-call-pc-33425544.webp 1x, /project-wonderful-nine/assets/girl-call-pc2x-4ca05756.webp 2x"
+          type="image/webp"
         />
-      </label>
-      <button type="submit" class="call-you-btn">Recall</button>
-    </form>
-  </div>
-  <div class="call-you-img">
-    <picture>
-      <source
-        media="(min-width: 1280px)"
-        srcset="/project-wonderful-nine/assets/girl-call-pc-33425544.webp 1x, /project-wonderful-nine/assets/girl-call-pc2x-4ca05756.webp 2x"
-        type="image/webp"
-      />
-      <source
-        media="(min-width: 768px)"
-        srcset="/project-wonderful-nine/assets/girl-call-tab-5a314915.png 1x, /project-wonderful-nine/assets/girl-call-tab2x-4788e402.png 2x"
-        type="image/png"
-      />
-      <source
-        media="(max-width: 767px)"
-        srcset="/project-wonderful-nine/assets/girl-call-mob-bce89195.png 1x, /project-wonderful-nine/assets/girl-call-mob2x-ae8e478f.png 2x"
-        type="image/png"
-      />
+        <source
+          media="(min-width: 768px)"
+          srcset="/project-wonderful-nine/assets/girl-call-tab-5a314915.png 1x, /project-wonderful-nine/assets/girl-call-tab2x-4788e402.png 2x"
+          type="image/png"
+        />
+        <source
+          media="(max-width: 767px)"
+          srcset="/project-wonderful-nine/assets/girl-call-mob-bce89195.png 1x, /project-wonderful-nine/assets/girl-call-mob2x-ae8e478f.png 2x"
+          type="image/png"
+        />
 
-      <img
-        class="img-call"
-        src="/project-wonderful-nine/assets/girl-call-pc-33425544.webp"
-        alt="sweet-girl"
-        width="629"
-      />
-    </picture>
+        <img
+          class="img-call"
+          src="/project-wonderful-nine/assets/girl-call-pc-33425544.webp"
+          alt="sweet-girl"
+          width="629"
+        />
+      </picture>
+    </div>
   </div>
 </section>
 
@@ -576,7 +578,7 @@
         </svg>
         <span>veggieboost</span>
       </a>
-      <ul class="body-footer__afterimg">
+      <!-- <ul class="body-footer__afterimg">
         <li class="contacts-footer__item">
           <a href="#how-it" class="contacts-footer__link">How It Works</a>
         </li>
@@ -586,7 +588,7 @@
         <li class="contacts-footer__item">
           <a href="#contacts" class="contacts-footer__link">Contacts</a>
         </li>
-      </ul>
+      </ul> -->
     </div>
     <div class="body-footer__nav">
       <ul class="body-footer__menu">
