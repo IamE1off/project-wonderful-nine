@@ -139,13 +139,15 @@ textarea {
 .container {
   max-width: 100%;
   margin: 0 auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-bottom: 80px;
 }
 @media screen and (min-width: 375px) {
   .container {
     max-width: 375px;
     padding-left: 20px;
     padding-right: 20px;
-    margin-bottom: 80px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -153,13 +155,13 @@ textarea {
     max-width: 768px;
     padding-left: 32px;
     padding-right: 32px;
-    margin-bottom: 100px;
+    padding-bottom: 100px;
   }
 }
 @media screen and (min-width: 1280px) {
   .container {
     max-width: 1280px;
-    margin-bottom: 124px;
+    padding-bottom: 124px;
   }
 }
 

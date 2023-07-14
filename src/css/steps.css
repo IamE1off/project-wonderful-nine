@@ -6,8 +6,7 @@
   height: auto;
   width: auto;
   overflow: hidden;
-  padding: 40px 20px;
-  padding-bottom: 0;
+  padding: 40px 20px 0 20px;
 }
 .steps-title {
   font-size: 24px;
