@@ -1,4 +1,4 @@
-# Vanilla App Template
+npm install# Vanilla App Template
 
 Этот проект был создан при помощи Vite. Для знакомства и настройки
 дополнительных возможностей [обратись к документации](https://vitejs.dev/).
