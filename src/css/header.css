@@ -50,6 +50,12 @@
   z-index: 9999;
 }
 /*---mobile-menu---*/
+.header-container-mobmenu {
+  padding: 13px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
 .container-mobile-menu {
   position: fixed;
