@@ -50,6 +50,11 @@
   z-index: 9999;
 }
 /*---mobile-menu---*/
+.header-mobmenu {
+ background-color: var(--white-bg-color);
+ height: 50px;
+}
+
 .header-container-mobmenu {
   padding: 13px 20px;
   display: flex;
