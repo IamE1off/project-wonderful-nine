@@ -1,10 +1,10 @@
 .call-you {
   min-width: 280px;
-  background-color: #fff;
+  background-color: var(--white-bg-color);
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   margin-bottom: 80px;
 }
 .info-box-call {
@@ -12,7 +12,7 @@
 }
 
 .call-you-title {
-  color: #141414;
+  color: var(--black-text-color);
   text-align: center;
   font-size: 24px;
   font-style: normal;
@@ -20,7 +20,7 @@
   line-height: 1.16;
   letter-spacing: -0.96px;
   text-transform: uppercase;
-  text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
+  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
   margin-bottom: 20px;
   padding-left: 6px;
   padding-right: 6px;
@@ -29,8 +29,8 @@
   text-align: center;
   font-size: 14px;
   font-style: normal;
-  text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
-  color: #141414;
+  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
+  color: var(--black-text-color);
   line-height: 1.28;
   letter-spacing: -0.56px;
   padding-left: 7px;
@@ -38,64 +38,64 @@
   margin-bottom: 40px;
 }
 .call-you-form {
-  max-width: 335px;
   display: inline-flex;
 }
 .call-label {
-  width: 100%;
+  max-width: 335px;
 }
 .tel-input {
-  width: 295px;
+  width: 290px;
   height: 48px;
-  color: #c1bdbd;
   border-radius: 100px;
-  border: 1px solid #141414;
+  border: 1px solid rgba(20, 20, 20, 0.3);
   padding-left: 24px;
-  opacity: 0.30000001192092896;
+  outline-color: var(--orange-button-color);
+}
+.tel-input::placeholder {
+  font-family: DM Sans;
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.56px;
+  color: rgba(20, 20, 20, 0.3);
 }
 .call-you-btn {
   letter-spacing: -0.56px;
   text-transform: capitalize;
   position: relative;
-  right: 65px;
+  right: 105px;
   padding: 15px 35px;
   border-radius: 100px;
-  color: #fff;
-  background: #fc8a11;
+  color: var(--white-bg-color);
+  background: var(--orange-button-color);
   border: none;
   margin: 0;
 }
 .call-you-img {
+  max-width: 335px;
+  height: 388px;
   position: relative;
-  margin-bottom: 90px;
-}
-.call-you-img::before {
   content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: #faf3e7;
+  background: var(--light-bg-button-color);
   background-image: radial-gradient(
-    circle at 30px 20px,
-    rgba(161, 196, 135, 0.69) 5.025px,
+    circle at 25px 20px,
+    rgba(161, 196, 135, 0.69) 2px,
     transparent 0
   );
   background-size: 42px 42px;
-  max-width: 335px;
-  height: 388px;
   border-radius: 40px;
 }
 .img-call {
-  position: relative;
-  transform: translateY(55%);
+  position: absolute;
+  bottom: 0;
 }
 
 @media screen and (min-width: 375px) {
   .call-you {
     max-width: 335px;
     width: 100%;
+  }
+  .tel-input {
+    width: 335px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -128,9 +128,19 @@
 
   .call-you-form {
     margin-left: 72px;
+    max-width: 350px;
   }
   .tel-input {
     width: 350px;
+  }
+  .call-you-img {
+    width: 704px;
+    height: 463px;
+    border-radius: 80px;
+  }
+  .img-call {
+    height: unset;
+    margin-left: 33px;
   }
 }
 @media screen and (min-width: 1280px) {
@@ -162,5 +172,13 @@
   }
   .call-you-form {
     margin-left: 0;
+  }
+  .call-you-img {
+    width: 525px;
+    height: 536px;
+    margin-bottom: unset;
+  }
+  .img-call {
+    margin-left: unset;
   }
 }

@@ -1,43 +1,53 @@
-<section class="steps container">
-  <div class="steps-section">
-    <div class="steps-wrap">
-      <h2 class="steps-title">3 Easy Steps for Buying Fresh Vegetables</h2>
-      <ol class="steps-list">
-        <li class="steps-item steps-item-box1">
-          Just choose the vegetable you want to order by clicking on the
-          checkboxes next to it.
-        </li>
-        <li class="steps-item steps-item-box2">
-          Click on the basket and fill out the form.
-        </li>
-        <li class="steps-item steps-item-box3">
-          Sit back and relax! Your fresh vegetables basket will be delivered.
-        </li>
-      </ol>
-    </div>
-    <div class="steps-picture">
-      <picture>
-        <source
-          srcset="
-            ./img/steps/litte-girl-veggy.webp 1x,
-            ./img/steps/little-girl2x.webp    2x
-          "
-          type="image/webp"
-        />
-        <source
-          srcset="
-            ./img/steps/litte-girl-veggy.png 1x,
-            ./img/steps/little-girl2x.png    2x
-          "
-          type="image/png"
-        />
-        <img
-          class="steps-img"
-          src="./img/steps/litte-girl-veggy.png"
-          alt="little-girl-in-red-cap"
-          width="258"
-        />
-      </picture>
+<section class="steps-section">
+  <div class="container">
+    <div class="steps">
+      <div class="steps-wrap">
+        <h2 class="steps-title">3 Easy Steps for Buying Fresh Vegetables</h2>
+        <ol class="steps-list">
+          <li class="steps-item">
+            Just choose the vegetable you want to order by clicking on the
+            checkboxes next to it.
+          </li>
+          <li class="steps-item">Click on the basket and fill out the form.</li>
+          <li class="steps-item">
+            Sit back and relax! Your fresh vegetables basket will be delivered.
+          </li>
+        </ol>
+      </div>
+      <div class="steps-picture">
+        <picture>
+          <source
+            media="(min-width: 1280px)"
+            srcset="
+              ./img/steps/girl_salad_pc.webp   1x,
+              ./img/steps/girl_salad_pc2x.webp 2x
+            "
+            type="image/webp"
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="
+              ./img/steps/girl_salad_tab.png   1x,
+              ./img/steps/girl_salad_tabx2.png 2x
+            "
+            type="image/png"
+          />
+          <source
+            media="(max-width: 767px)"
+            srcset="
+              ./img/steps/girl_salad_mob.png   1x,
+              ./img/steps/girl_salad_mob2x.png 2x
+            "
+            type="image/png"
+          />
+          <img
+            class="steps-img"
+            src="../img/steps/girl_salad.png"
+            alt="a smiling girl with salad"
+            width="434"
+          />
+        </picture>
+      </div>
     </div>
   </div>
 </section>
