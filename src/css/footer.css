@@ -54,6 +54,9 @@
  fill: var(--green-backround-color);
 }
 
+.body-footer__nav{
+  margin-left: 45px;
+}
 
 /* -------------------section two----------------- */
 
@@ -136,6 +139,8 @@
 
 @media screen and (min-width: 768px){
  
+
+  
  .footer_container{
   display: flex;
   flex-direction: row;
@@ -179,6 +184,8 @@
 
 @media screen and (min-width: 1280px){
  
+
+    
  .footer-img-nav{
 
   display: flex;
