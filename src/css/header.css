@@ -11,7 +11,7 @@
 }
 
 .header-navigation,
-.container-button-shopping {
+.cart-btn {
   display: none;
 }
 .logo-veggieboost {
@@ -51,8 +51,8 @@
 }
 /*---mobile-menu---*/
 .header-mobmenu {
- background-color: var(--white-bg-color);
- height: 50px;
+  background-color: var(--white-bg-color);
+  height: 50px;
 }
 
 .header-container-mobmenu {
@@ -93,7 +93,7 @@
   gap: 16px;
 }
 
-.open-modal {
+.cart-btn {
   display: flex;
   align-items: center;
   text-align: center;
@@ -107,13 +107,13 @@
   visibility: hidden;
 }
 .icon-shopping {
-  fill: transparent;  
+  fill: transparent;
   stroke: var(--white-bg-color);
 }
 
 @media screen and (min-width: 768px) {
   .header-navigation,
-  .container-button-shopping {
+  .cart-btn {
     display: flex;
   }
   .container-button-openmobmenu {
@@ -137,7 +137,7 @@
     display: flex;
     gap: 86px;
   }
-  .open-modal {
+  .cart-btn {
     background-color: var(--white-bg-color);
     border: none;
     width: 20px;
@@ -146,10 +146,9 @@
     background-color: transparent;
     border: none;
   }
-  .icon-shopping {    
-    stroke: var(--black-text-color);  
+  .icon-shopping {
+    stroke: var(--black-text-color);
   }
-  
 }
 @media screen and (min-width: 1280px) {
   .header-list {
@@ -161,7 +160,7 @@
     display: flex;
     gap: 308px;
   }
-  .open-modal {
+  .cart-btn {
     width: 24px;
     height: 24px;
   }

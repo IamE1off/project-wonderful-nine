@@ -2,6 +2,7 @@
   const mobileMenu = document.querySelector('.burger__menu');
   const openMenuBtn = document.querySelector('.burger__open-btn');
   const closeMenuBtn = document.querySelector('.burger__close-btn');
+  const closeMenuLink = document.querySelectorAll('.menu-link');
 
   const toggleMenu = () => {
     const isMenuOpen =
@@ -14,7 +15,7 @@
       : 'enableBodyScroll';
     bodyScrollLock[scrollLockMethod](document.body);
   };
-
+  closeMenuLink.forEach(item => item.addEventListener('click', toggleMenu));
   openMenuBtn.addEventListener('click', toggleMenu);
   closeMenuBtn.addEventListener('click', toggleMenu);
 
