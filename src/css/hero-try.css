@@ -122,7 +122,13 @@
 /******* ! MEDIA 768 *********/
 @media screen and (min-width: 768px) {
   .hero {
-    /* margin-bottom: 100px; */
+    padding-top: 64px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .container-hero {
+    max-width: 768px;
+    padding-bottom: 32px;
   }
   .hero-img {
     width: 158px;
@@ -130,6 +136,7 @@
   }
 
   .hero-tittle {
+    max-width: 656px;
     margin-bottom: 16px;
     font-size: 54px;
     letter-spacing: -2.16px;
@@ -172,9 +179,10 @@
 
 @media screen and (min-width: 1280px) {
   .hero {
-    /* margin-bottom: 124px; */
+    padding-top: 132px;
   }
   .container-hero {
+    max-width: 1280px;
     display: flex;
     justify-content: space-between;
   }
