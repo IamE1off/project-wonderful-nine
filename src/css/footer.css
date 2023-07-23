@@ -54,6 +54,10 @@
   fill: var(--green-backround-color);
 }
 
+.body-footer__nav {
+  padding-left: 45px;
+}
+
 /* -------------------section two----------------- */
 
 .body-footer__menu {
@@ -124,7 +128,6 @@
 .address-link:focus {
   color: var(--green-backround-color);
 }
-
 @media screen and (min-width: 375px) {
   .footer_container {
     max-width: 375px;
