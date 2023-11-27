@@ -1,28 +1,27 @@
 .footer {
   background: var(--light-green-cards-color);
+  padding: 80px 0px;
 }
 
 .footer_container {
-  padding-top: 80px;
-  padding-right: 15px;
-  padding-left: 15px;
-  padding-bottom: 80px;
+  width: 100%;
+  max-width: 375px;
+  padding: 0 20px;
   margin: 0 auto;
-  max-width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-direction: column;
+
+
 }
+
 .body-footer__info {
   align-items: center;
-  padding-top: 40px;
+
 }
 
 .text-info {
   text-align: center;
   width: 135px;
 }
+
 /* -----------------section one---------------- */
 
 .body-footer__imgbox {
@@ -54,15 +53,16 @@
   fill: var(--green-backround-color);
 }
 
-.body-footer__nav {
-  padding-left: 45px;
-}
+
 
 /* -------------------section two----------------- */
 
 .body-footer__menu {
   display: flex;
-  gap: 12px;
+  gap: 20px;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 40px;
 }
 
 .contacts-footer__link:hover,
@@ -78,6 +78,7 @@
   letter-spacing: -0.56px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 /*------- section three -------*/
 
 .body-footer__info {
@@ -128,6 +129,7 @@
 .address-link:focus {
   color: var(--green-backround-color);
 }
+
 @media screen and (min-width: 375px) {
   .footer_container {
     max-width: 375px;
@@ -137,30 +139,23 @@
 }
 
 @media screen and (min-width: 768px) {
-  .footer_container {
+  .footer {
     display: flex;
-    flex-direction: row;
-    max-width: 768px;
+
+  }
+
+
+  .footer_container {
+    min-width: 768px;
+    display: flex;
+    justify-content: space-between;
     padding-left: 32px;
     padding-right: 32px;
   }
 
-  .body-footer__info {
-    margin-bottom: 80px;
-    padding-top: unset;
-  }
-
-  .body-footer__nav {
-    max-width: 241px;
-  }
-
   .body-footer__menu {
     gap: 20px;
-    text-align: center;
-  }
-
-  .body-footer__nav {
-    margin-left: 44px;
+    margin-bottom: unset;
   }
 
   .address-item {
@@ -179,7 +174,9 @@
 @media screen and (min-width: 1280px) {
   .footer_container {
     max-width: 1280px;
+    padding-right: 142px;
   }
+
   .footer-img-nav {
     display: flex;
     flex-direction: row;
